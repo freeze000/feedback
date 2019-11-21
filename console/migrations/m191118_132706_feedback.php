@@ -19,7 +19,7 @@ class m191118_132706_feedback extends Migration
             'email' => $this->string(128)->notNull(),
             'mobile' => $this->string(32)->notNull(),
             'plot' => $this->text()->notNull(),
-        ], 'CHARACTER SET utf8 COLLATE utf8_unicode_ci ENGINE=InnoDB');
+        ]);
     }
 
     /**
