@@ -1,8 +1,6 @@
 Please see https://github.com/yiisoft/yii2-app-advanced/blob/master/docs/guide/start-installation.md#installing-using-vagrant to install
 
-I have a problem. Migrations don't apply premission denied. Please run manually.
-
-
+if you have a problem migrations don't apply premission denied. Please run manually.
 
 
 If you choise environment is prod, please setting recaptcha.
