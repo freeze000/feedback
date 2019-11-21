@@ -1,3 +1,6 @@
+Please see https://github.com/yiisoft/yii2-app-advanced/blob/master/docs/guide/start-installation.md#installing-using-vagrant to install
+
+
 If you choise environment is prod, please setting recaptcha.
 
 For setting recaptcha need to add in common/config/main-local.php
