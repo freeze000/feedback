@@ -1,0 +1,9 @@
+If you choise environment is prod, please setting recaptcha.
+
+For setting recaptcha need to add in common/config/main-local.php
+'reCaptcha' => [
+    'name' => 'reCaptcha',
+    'class' => 'himiklab\yii2\recaptcha\ReCaptchaConfig',
+    'siteKeyV2' => 'key',
+    'secretV2' => 'secrectkey',
+],
