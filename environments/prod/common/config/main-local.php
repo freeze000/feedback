@@ -12,5 +12,11 @@ return [
             'class' => 'yii\swiftmailer\Mailer',
             'viewPath' => '@common/mail',
         ],
+        'reCaptcha' => [
+            'name' => 'reCaptcha',
+            'class' => 'himiklab\yii2\recaptcha\ReCaptchaConfig',
+            'siteKeyV2' => '6LfAU8MUAAAAAIBuEYKttHNfIv2gtVYZB2Ym5Zcl',
+            'secretV2' => '6LfAU8MUAAAAAKhynVb0U-5SIZfApLvMv2iFe-RK',
+        ],
     ],
 ];

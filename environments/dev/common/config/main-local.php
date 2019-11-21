@@ -16,5 +16,11 @@ return [
             // for the mailer to send real emails.
             'useFileTransport' => true,
         ],
+        'reCaptcha' => [
+            'name' => 'reCaptcha',
+            'class' => 'himiklab\yii2\recaptcha\ReCaptchaConfig',
+            'siteKeyV2' => '6LfAU8MUAAAAAIBuEYKttHNfIv2gtVYZB2Ym5Zcl',
+            'secretV2' => '6LfAU8MUAAAAAKhynVb0U-5SIZfApLvMv2iFe-RK',
+        ],
     ],
 ];
