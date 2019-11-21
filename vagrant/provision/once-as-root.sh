@@ -60,8 +60,8 @@ ln -s /app/vagrant/nginx/app.conf /etc/nginx/sites-enabled/app.conf
 echo "Done!"
 
 info "Initailize databases for MySQL"
-mysql -uroot <<< "CREATE DATABASE `yii2advanced` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci */"
-mysql -uroot <<< "CREATE DATABASE `yii2advanced_test` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci */"
+mysql -uroot <<< "CREATE DATABASE `yii2advanced`"
+mysql -uroot <<< "CREATE DATABASE `yii2advanced_test`"
 echo "Done!"
 
 info "Install composer"
